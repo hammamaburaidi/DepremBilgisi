@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		301B4EF9299950DE00AA4844 /* SonDepremler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4EF8299950DE00AA4844 /* SonDepremler.swift */; };
+		301B4F02299960A000AA4844 /* YardimTalebi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4F01299960A000AA4844 /* YardimTalebi.swift */; };
+		301B4F042999F22D00AA4844 /* Hakkimizda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4F032999F22D00AA4844 /* Hakkimizda.swift */; };
+		301B4F32299A076200AA4844 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4F31299A076200AA4844 /* InfoView.swift */; };
+		303D7C952995017100348219 /* DepremBilgisiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303D7C942995017100348219 /* DepremBilgisiApp.swift */; };
+		303D7C992995017200348219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303D7C982995017200348219 /* Assets.xcassets */; };
+		303D7C9C2995017200348219 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303D7C9B2995017200348219 /* Preview Assets.xcassets */; };
+		3046AEBE29A54C0000D95CD8 /* EczanelerJSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046AEBD29A54C0000D95CD8 /* EczanelerJSONModel.swift */; };
+		3049BE8129A79F2D007F615A /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3049BE8029A79F2D007F615A /* SearchBar.swift */; };
+		305137DB299E5BEB00A09139 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305137CF299E5BEB00A09139 /* Roboto-LightItalic.ttf */; };
+		305137DC299E5BEB00A09139 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305137D0299E5BEB00A09139 /* Roboto-BlackItalic.ttf */; };
+		305137DD299E5BEB00A09139 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305137D1299E5BEB00A09139 /* Roboto-Thin.ttf */; };
+		305137DE299E5BEB00A09139 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305137D2299E5BEB00A09139 /* Roboto-Regular.ttf */; };
+		305137DF299E5BEB00A09139 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305137D3299E5BEB00A09139 /* Roboto-Medium.ttf */; };
+		305137E0299E5BEB00A09139 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305137D4299E5BEB00A09139 /* Roboto-ThinItalic.ttf */; };
+		305137E1299E5BEB00A09139 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305137D5299E5BEB00A09139 /* Roboto-Light.ttf */; };
+		305137E2299E5BEB00A09139 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305137D6299E5BEB00A09139 /* Roboto-BoldItalic.ttf */; };
+		305137E3299E5BEB00A09139 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305137D7299E5BEB00A09139 /* Roboto-Italic.ttf */; };
+		305137E4299E5BEB00A09139 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305137D8299E5BEB00A09139 /* Roboto-Bold.ttf */; };
+		305137E5299E5BEB00A09139 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305137D9299E5BEB00A09139 /* Roboto-Black.ttf */; };
+		305137E6299E5BEB00A09139 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305137DA299E5BEB00A09139 /* Roboto-MediumItalic.ttf */; };
+		305137E8299E69DF00A09139 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305137E7299E69DF00A09139 /* LocationView.swift */; };
+		3071E245299FA2D200FAB816 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3071E244299FA2D200FAB816 /* MapView.swift */; };
+		30CDE1D3299BA8DC0062F449 /* DepremJSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CDE1D2299BA8DC0062F449 /* DepremJSONModel.swift */; };
+		30CDE1D9299BB6DB0062F449 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CDE1D8299BB6DB0062F449 /* TabBar.swift */; };
+		30CDE1DB299BB8C40062F449 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CDE1DA299BB8C40062F449 /* Menu.swift */; };
+		30CDE1DD299BBE570062F449 /* Eczaneler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CDE1DC299BBE570062F449 /* Eczaneler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		301B4EF8299950DE00AA4844 /* SonDepremler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonDepremler.swift; sourceTree = "<group>"; };
+		301B4F01299960A000AA4844 /* YardimTalebi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YardimTalebi.swift; sourceTree = "<group>"; };
+		301B4F032999F22D00AA4844 /* Hakkimizda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hakkimizda.swift; sourceTree = "<group>"; };
+		301B4F2E2999F5D700AA4844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		301B4F31299A076200AA4844 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		303D7C912995017100348219 /* DepremBilgisi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepremBilgisi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		303D7C942995017100348219 /* DepremBilgisiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepremBilgisiApp.swift; sourceTree = "<group>"; };
+		303D7C982995017200348219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		303D7C9B2995017200348219 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3046AEBD29A54C0000D95CD8 /* EczanelerJSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EczanelerJSONModel.swift; sourceTree = "<group>"; };
+		3049BE8029A79F2D007F615A /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		305137CF299E5BEB00A09139 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		305137D0299E5BEB00A09139 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		305137D1299E5BEB00A09139 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		305137D2299E5BEB00A09139 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		305137D3299E5BEB00A09139 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		305137D4299E5BEB00A09139 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		305137D5299E5BEB00A09139 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		305137D6299E5BEB00A09139 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		305137D7299E5BEB00A09139 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		305137D8299E5BEB00A09139 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		305137D9299E5BEB00A09139 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		305137DA299E5BEB00A09139 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		305137E7299E69DF00A09139 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		3071E244299FA2D200FAB816 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		30CDE1D2299BA8DC0062F449 /* DepremJSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepremJSONModel.swift; sourceTree = "<group>"; };
+		30CDE1D8299BB6DB0062F449 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		30CDE1DA299BB8C40062F449 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		30CDE1DC299BBE570062F449 /* Eczaneler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eczaneler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		303D7C8E2995017100348219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		301B4F052999F50700AA4844 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				305137D9299E5BEB00A09139 /* Roboto-Black.ttf */,
+				305137D0299E5BEB00A09139 /* Roboto-BlackItalic.ttf */,
+				305137D8299E5BEB00A09139 /* Roboto-Bold.ttf */,
+				305137D6299E5BEB00A09139 /* Roboto-BoldItalic.ttf */,
+				305137D7299E5BEB00A09139 /* Roboto-Italic.ttf */,
+				305137D5299E5BEB00A09139 /* Roboto-Light.ttf */,
+				305137CF299E5BEB00A09139 /* Roboto-LightItalic.ttf */,
+				305137D3299E5BEB00A09139 /* Roboto-Medium.ttf */,
+				305137DA299E5BEB00A09139 /* Roboto-MediumItalic.ttf */,
+				305137D2299E5BEB00A09139 /* Roboto-Regular.ttf */,
+				305137D1299E5BEB00A09139 /* Roboto-Thin.ttf */,
+				305137D4299E5BEB00A09139 /* Roboto-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		303D7C882995017100348219 = {
+			isa = PBXGroup;
+			children = (
+				3071E244299FA2D200FAB816 /* MapView.swift */,
+				303D7C932995017100348219 /* DepremBilgisi */,
+				303D7C922995017100348219 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		303D7C922995017100348219 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				303D7C912995017100348219 /* DepremBilgisi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303D7C932995017100348219 /* DepremBilgisi */ = {
+			isa = PBXGroup;
+			children = (
+				301B4F2E2999F5D700AA4844 /* Info.plist */,
+				301B4F052999F50700AA4844 /* Fonts */,
+				303D7C942995017100348219 /* DepremBilgisiApp.swift */,
+				303D7C982995017200348219 /* Assets.xcassets */,
+				303D7C9A2995017200348219 /* Preview Content */,
+				30CDE1D8299BB6DB0062F449 /* TabBar.swift */,
+				30CDE1DA299BB8C40062F449 /* Menu.swift */,
+				301B4F032999F22D00AA4844 /* Hakkimizda.swift */,
+				301B4F31299A076200AA4844 /* InfoView.swift */,
+				301B4EF8299950DE00AA4844 /* SonDepremler.swift */,
+				30CDE1DC299BBE570062F449 /* Eczaneler.swift */,
+				301B4F01299960A000AA4844 /* YardimTalebi.swift */,
+				305137E7299E69DF00A09139 /* LocationView.swift */,
+				30CDE1D2299BA8DC0062F449 /* DepremJSONModel.swift */,
+				3046AEBD29A54C0000D95CD8 /* EczanelerJSONModel.swift */,
+				3049BE8029A79F2D007F615A /* SearchBar.swift */,
+			);
+			path = DepremBilgisi;
+			sourceTree = "<group>";
+		};
+		303D7C9A2995017200348219 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				303D7C9B2995017200348219 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		303D7C902995017100348219 /* DepremBilgisi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303D7C9F2995017200348219 /* Build configuration list for PBXNativeTarget "DepremBilgisi" */;
+			buildPhases = (
+				303D7C8D2995017100348219 /* Sources */,
+				303D7C8E2995017100348219 /* Frameworks */,
+				303D7C8F2995017100348219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DepremBilgisi;
+			productName = DepremBilgisi;
+			productReference = 303D7C912995017100348219 /* DepremBilgisi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		303D7C892995017100348219 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					303D7C902995017100348219 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 303D7C8C2995017100348219 /* Build configuration list for PBXProject "DepremBilgisi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 303D7C882995017100348219;
+			productRefGroup = 303D7C922995017100348219 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				303D7C902995017100348219 /* DepremBilgisi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		303D7C8F2995017100348219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305137DE299E5BEB00A09139 /* Roboto-Regular.ttf in Resources */,
+				303D7C9C2995017200348219 /* Preview Assets.xcassets in Resources */,
+				305137E4299E5BEB00A09139 /* Roboto-Bold.ttf in Resources */,
+				303D7C992995017200348219 /* Assets.xcassets in Resources */,
+				305137E6299E5BEB00A09139 /* Roboto-MediumItalic.ttf in Resources */,
+				305137DF299E5BEB00A09139 /* Roboto-Medium.ttf in Resources */,
+				305137E0299E5BEB00A09139 /* Roboto-ThinItalic.ttf in Resources */,
+				305137DB299E5BEB00A09139 /* Roboto-LightItalic.ttf in Resources */,
+				305137DD299E5BEB00A09139 /* Roboto-Thin.ttf in Resources */,
+				305137DC299E5BEB00A09139 /* Roboto-BlackItalic.ttf in Resources */,
+				305137E5299E5BEB00A09139 /* Roboto-Black.ttf in Resources */,
+				305137E2299E5BEB00A09139 /* Roboto-BoldItalic.ttf in Resources */,
+				305137E3299E5BEB00A09139 /* Roboto-Italic.ttf in Resources */,
+				305137E1299E5BEB00A09139 /* Roboto-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		303D7C8D2995017100348219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3049BE8129A79F2D007F615A /* SearchBar.swift in Sources */,
+				30CDE1D9299BB6DB0062F449 /* TabBar.swift in Sources */,
+				303D7C952995017100348219 /* DepremBilgisiApp.swift in Sources */,
+				30CDE1D3299BA8DC0062F449 /* DepremJSONModel.swift in Sources */,
+				3071E245299FA2D200FAB816 /* MapView.swift in Sources */,
+				30CDE1DB299BB8C40062F449 /* Menu.swift in Sources */,
+				3046AEBE29A54C0000D95CD8 /* EczanelerJSONModel.swift in Sources */,
+				301B4F042999F22D00AA4844 /* Hakkimizda.swift in Sources */,
+				301B4F02299960A000AA4844 /* YardimTalebi.swift in Sources */,
+				301B4EF9299950DE00AA4844 /* SonDepremler.swift in Sources */,
+				305137E8299E69DF00A09139 /* LocationView.swift in Sources */,
+				30CDE1DD299BBE570062F449 /* Eczaneler.swift in Sources */,
+				301B4F32299A076200AA4844 /* InfoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		303D7C9D2995017200348219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		303D7C9E2995017200348219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		303D7CA02995017200348219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DepremBilgisi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DepremBilgisi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hammam.DepremBilgisi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		303D7CA12995017200348219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DepremBilgisi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DepremBilgisi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hammam.DepremBilgisi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		303D7C8C2995017100348219 /* Build configuration list for PBXProject "DepremBilgisi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303D7C9D2995017200348219 /* Debug */,
+				303D7C9E2995017200348219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303D7C9F2995017200348219 /* Build configuration list for PBXNativeTarget "DepremBilgisi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303D7CA02995017200348219 /* Debug */,
+				303D7CA12995017200348219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 303D7C892995017100348219 /* Project object */;
+}
