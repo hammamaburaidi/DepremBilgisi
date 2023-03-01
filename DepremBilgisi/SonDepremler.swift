@@ -12,7 +12,7 @@ struct SonDepremler: View {
     @State var earthquakeData: [Result] = []
     
     public func getData(){
-        let urlString = "https://api.orhanaydogdu.com.tr/deprem/live.php?limit=40"
+        let urlString = "https://api.orhanaydogdu.com.tr/deprem/kandilli/live"
         let url = URL(string: urlString)
         
         URLSession.shared.dataTask(with: url!){data, _, error in
